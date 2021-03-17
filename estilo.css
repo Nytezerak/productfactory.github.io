@@ -1,0 +1,45 @@
+body{
+	background-color: #282828;
+}
+
+.caixa {
+	width: 70%;
+	margin: 2.5% 15%;
+}
+
+#logo{
+	float: left;
+	width: 15%;
+	height: 70px;
+	margin-right: 5%;
+}
+
+.registrar{
+	float: right;
+	padding: 10px 20px;
+	border-radius: 20px;
+	margin: -5px;
+	background-color: #484848;
+}
+	
+
+
+nav {
+	margin: 5px 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 3%;
+}
+
+nav a {
+	color: white;
+	font-size: 90%;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+}
+

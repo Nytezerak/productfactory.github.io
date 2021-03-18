@@ -20,36 +20,56 @@
     padding: 0 2rem;	
     display: grid;
     height: 100%;
-	grid-template-columns: 50% 50%;
-	grid-template-rows: 30% 10% 40% 10% 10%;
+	grid-template-columns: 10% 40% 40% 10%;
+	grid-template-rows: 20% 20% 40% 10% 10%;
+}
+div h3{
+	color: grey;
+	font-weight: normal;
 }
 
 .tituloCaixa{
-	grid-column: 1 / 2;
+	grid-column: 2 / 3;
 	grid-row: 2 / 3;
 	font-weight: bold;
 	font-size: 30px;
+	text-align: left;
 }
 
 .conteudoCaixa{
-	grid-column: 1 / 2;
+	grid-column: 2 / 3;
 	grid-row: 3 / 4;
+	text-align: left;
+	line-height: 250%;
+	margin-right: 15%;
+
 }
 
-.botaiCaixa{
-	grid-column: 1 / 2;
+.botaoCaixa{
+	grid-column: 2 / 3;
 	grid-row: 4 / 5;
+	text-align: left;
+	margin-top: -15%;
+
+}
+
+.startRegister{
+	border: 0;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	background: #f46632;
+	border-radius: 10px;
+	width: 60%;
+	height: 40px;
 }
 
 .imagemCaixa{
-	grid-column: 2 / 3;
+	grid-column: 3 / 4;
 	grid-row: 1 / 6;
 }
 
-.imgCaixa{
-	height: 90%;
-	width: 90%;
-}
+
 
 
 

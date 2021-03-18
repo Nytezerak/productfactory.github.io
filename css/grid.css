@@ -1,0 +1,25 @@
+.cubo__principal{
+	text-align: center;
+	background-color: white;
+	width: 80%;
+	margin: 0 10%;
+	border-radius: 15px;
+	height: 120%;
+	box-shadow:  0 0 5px #282828;
+	margin-bottom: 5%;
+	grid-template-areas: 
+	"primeiroCubo";
+	grid-template-columns: auto;
+    grid-template-rows: 50px auto auto;
+}
+
+.cubo__secundario{
+	text-align: center;
+	background-color: white;
+	width: 80%;
+	margin: 0 10%;
+	border-radius: 15px;
+	height: 120%;
+	box-shadow:  0 0 5px #282828;
+	margin-bottom: 5%;
+}

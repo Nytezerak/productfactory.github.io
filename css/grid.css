@@ -1,4 +1,4 @@
-.cubo__principal{
+.caixa__principal{
 	text-align: center;
 	background-color: white;
 	width: 80%;
@@ -8,12 +8,53 @@
 	box-shadow:  0 0 5px #282828;
 	margin-bottom: 5%;
 	grid-template-areas: 
-	"primeiroCubo";
+	"primeiraCaixa";
 	grid-template-columns: auto;
     grid-template-rows: 50px auto auto;
 }
 
-.cubo__secundario{
+.primeiraCaixa{
+    grid-area: primeiraCaixa;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;	
+    display: grid;
+    height: 100%;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 30% 10% 40% 10% 10%;
+}
+
+.tituloCaixa{
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.conteudoCaixa{
+	grid-column: 1 / 2;
+	grid-row: 3 / 4;
+}
+
+.botaiCaixa{
+	grid-column: 1 / 2;
+	grid-row: 4 / 5;
+}
+
+.imagemCaixa{
+	grid-column: 2 / 3;
+	grid-row: 1 / 6;
+}
+
+.imgCaixa{
+	height: 90%;
+	width: 90%;
+}
+
+
+
+
+.caixa__secundaria{
 	text-align: center;
 	background-color: white;
 	width: 80%;
